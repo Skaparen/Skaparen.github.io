@@ -1,0 +1,112 @@
+:root {
+  --common-width: 30%;
+
+  --karlek-baba: 6px;
+  --socialt-kapital-baba: 380px;
+  --densitet-baba: 216px;
+}
+
+body {
+	background-color: black;
+	font-family: consolas;
+	font-size: 18px
+}
+
+.beskrivning {
+	color: red;
+	font-size: 18px;
+
+	margin-top: 48px;
+	margin-left: 20%;
+	margin-right: 20%;
+
+	border: 1px solid yellow;
+}
+
+.outline {
+	margin-top: 32px;
+	padding-bottom: 50px;
+	width: 380px;
+	border: 1px solid yellow;
+}
+
+.portratt {
+	box-shadow: 5px 10px 10px white;
+	width: var(--common-width);
+}
+
+.stampel {
+	height: 24px;
+}
+
+.rubrik {
+	color: white;
+	text-decoration: none;
+}
+
+.Kompisar {
+	margin-bottom: 48px;
+}
+
+.stats {
+	margin-left: 35%;
+	height: 256px;
+	width: 20%;
+}
+
+.stat {
+	height: 16px;
+	margin-left: 0px;
+}
+
+.stat h3 {
+	color: teal;
+}
+
+/* 
+det här är hur du sätter vidden/färgen 
+på en specifik stat 
+*/
+#love {
+	width: 360px;
+	background-color: yellow;
+}
+
+#social {
+	width: 180px;
+	background-color: red;
+}
+
+#densitet {
+	width: 28px;
+	background-color: green;
+}
+
+#love2 {
+	width: var(--karlek-baba);
+	background-color: yellow;
+}
+
+#social2 {
+	width: var(--socialt-kapital-baba);
+	background-color: red;
+}
+
+#densitet2 {
+	width: var(--densitet-baba);
+	background-color: green;
+}
+
+.Liv {
+	margin-left: 35%;
+	width: 20%;
+}
+
+.Liv p {
+	color: chocolate;
+}
+
+h2 {
+	color: orange;
+}
+
