@@ -1,6 +1,5 @@
 :root {
   --common-width: 30%;
-
   --karlek-baba: 6px;
   --socialt-kapital-baba: 380px;
   --densitet-baba: 216px;
@@ -63,10 +62,6 @@ body {
 	color: teal;
 }
 
-/* 
-det här är hur du sätter vidden/färgen 
-på en specifik stat 
-*/
 #love {
 	width: 360px;
 	background-color: yellow;
@@ -109,4 +104,3 @@ på en specifik stat
 h2 {
 	color: orange;
 }
-
