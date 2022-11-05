@@ -3,6 +3,9 @@
   --karlek-baba: 6px;
   --socialt-kapital-baba: 380px;
   --densitet-baba: 216px;
+  --karlek-sture: 240px;
+  --socialt-kapital-sture: 147px;
+  --densitet-sture: 210px;
 }
 
 body {
@@ -35,7 +38,7 @@ body {
 }
 
 .stampel {
-	height: 24px;
+	height: 42px;
 }
 
 .rubrik {
@@ -92,6 +95,22 @@ body {
 	background-color: green;
 }
 
+#love3 {
+	width: var(--karlek-sture);
+	background-color: yellow;
+}
+
+#social3 {
+	width: var(--socialt-kapital-sture);
+	background-color: red;
+}
+
+#densitet3 {
+	width: var(--densitet-sture);
+	background-color: green;
+}
+
+
 .Liv {
 	margin-left: 35%;
 	width: 20%;
@@ -103,4 +122,16 @@ body {
 
 h2 {
 	color: orange;
+}
+
+.stat-wrapper {
+	margin-top: 16px;
+	width: 100%;
+}
+
+.stat-title{
+	padding: 0;
+	margin: 0;
+	float:left;
+	color:teal;
 }
